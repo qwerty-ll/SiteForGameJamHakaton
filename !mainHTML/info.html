@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>KSU GameJam / Инфо</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/second.css">
+  <link rel="stylesheet" href="../css/allFileStyle.css">
+</head>
+<body>
+    <div class="topbar">
+    <div class="logo">
+      <img class="logo-icon" src="../img/LogoIvitsh.png" alt="">
+      Высшая<br>IT-Школа
+    </div>
+    <div class="menu">
+      <a href="../index.html">Главный</a>
+      <button class="top-btn login" ><a href="https://sdo.kosgos.ru/login/index.php">Войти</a></button>
+    </div>
+  </div>
+  <div class="photo-gallery-main">
+    <div class="main-photo-block">
+      <img id="mainPhoto" src="../img/ImgForHa1.jpg" alt="Главное фото">
+    </div>
+    <div class="thumbs-row">
+      <img class="thumb" src="../img/ImgForHa1.jpg" alt="Миниатюра 1" onclick="showPhoto(0)">
+      <img class="thumb" src="../img/ImgForHa2.jpg" alt="Миниатюра 2" onclick="showPhoto(1)">
+      <img class="thumb" src="../img/ImgForHa3.jpg" alt="Миниатюра 3" onclick="showPhoto(2)">
+      <img class="thumb" src="../img/ImgForHa4.jpg" alt="Миниатюра 4" onclick="showPhoto(3)">
+    </div>
+  </div>
+  <div class="info-box">
+    <div class="infotitle">Концепция ежегодного хакатон-фестиваля</div>
+
+    <div class="infosection">
+      <strong>Место проведения:</strong> Учебный корпус Б, Институт Высшая ИТ-школа
+    </div>
+    <div class="infosection">
+      <strong>1. Общая информация</strong><br>
+      Ежегодный хакатон-фестиваль — это платформа для студентов, заинтересованных в создании инновационных ИТ-проектов. Мероприятие объединяет разработчиков, дизайнеров, аналитиков и менеджеров проектов, давая им возможность продемонстрировать свои навыки, получить опыт командной работы и воплотить свои идеи в жизнь.
+    </div>
+    <div class="infosection">
+      <strong>2. Тематика фестиваля</strong><br>
+      Тематика фестиваля — «Умный университет будущего». Участники создают ИТ-решения, направленные на улучшение цифровой среды университета: интерактивные платформы, чат-боты, системы аналитики, инструменты для студентов и преподавателей.
+    </div>
+    <div class="infosection">
+      <strong>3. Формат участия</strong><br>
+      Участники проходят регистрацию на онлайн-платформе фестиваля, указывают свои компетенции (разработка, дизайн, аналитика, управление проектами). После регистрации формируются команды из 3–5 человек, в которых распределяются роли. Каждая команда выбирает одно из предложенных заданий или разрабатывает собственный проект в рамках темы фестиваля.
+    </div>
+    <div class="infosection">
+      <strong>4. Этапы проведения хакатона</strong>
+      <br><span class="stage-title">Этап 1. Регистрация и формирование команд (1 неделя)</span>
+      <ul class="stagelist">
+        <li>Открытие онлайн-регистрации на платформе</li>
+        <li>Создание профилей участников и команд</li>
+        <li>Ознакомление с правилами и кейсами фестиваля</li>
+      </ul>
+      <span class="stage-title">Этап 2. Идея и концепция проекта (2 дня)</span>
+      <ul class="stagelist">
+        <li>Разработка идеи, описание проблемы и решения</li>
+        <li>Презентация концепции и получение обратной связи от менторов</li>
+      </ul>
+      <span class="stage-title">Этап 3. Разработка прототипа (1 неделя)</span>
+      <ul class="stagelist">
+        <li>Реализация MVP или функционального демо-продукта</li>
+        <li>Поддержка со стороны технических консультантов</li>
+      </ul>
+      <span class="stage-title">Этап 4. Финальная защита (1 день)</span>
+      <ul class="stagelist">
+        <li>Презентация проекта перед жюри</li>
+        <li>Демонстрация прототипа</li>
+        <li>Обсуждение перспектив развития решения</li>
+      </ul>
+    </div>
+    <div class="infosection">
+      <strong>5. Мероприятия, которые могут быть включены в фестиваль</strong>
+      <ul class="stagelist">
+        <li>Лекции и мастер-классы от IT-специалистов и предпринимателей</li>
+        <li>Наставнические сессии с экспертами</li>
+      </ul>
+    </div>
+    <div class="infosection">
+      <strong>6. Награды и призы</strong>
+      <ul class="awards-list">
+        <li><span class="icon"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7"/><path d="M6 10l3 3 5-5"/></svg></span>Главный приз — грант на развитие проекта (100 000 рублей)</li>
+        <li><span class="icon"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7"/><path d="M6 10l3 3 5-5"/></svg></span>Сертификаты участников и благодарности</li>
+        <li><span class="icon"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7"/><path d="M6 10l3 3 5-5"/></svg></span>Возможность стажировки у партнёров фестиваля</li>
+        <li><span class="icon"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7"/><path d="M6 10l3 3 5-5"/></svg></span>Медиа-поддержку и продвижение лучших проектов</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../js/scipts.js"></script>
+</body>
+</html>
